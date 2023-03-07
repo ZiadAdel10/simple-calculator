@@ -1,0 +1,66 @@
+/* Header Section */
+
+.header-section {
+  background-color: lightgreen;
+  padding: 0.8rem;
+}
+
+.description {
+  font-size: 4rem;
+  color: green;
+}
+
+/* Main section */
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-display {
+  border: 8px solid green;
+  width: 40rem;
+  height: 5rem;
+  background-color: lightgreen;
+  color: black;
+  font-family: "Tilt Warp", cursive;
+  font-size: 3rem;
+  text-align: center;
+  /* margin-bottom: 30px;
+  height: 50px;
+  width: 100%;
+  padding: 10px; */
+}
+
+input {
+  text-align: center;
+  background-color: lightgreen;
+  border: 3px solid green;
+  padding: 2px;
+}
+
+.inputs {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.operators {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  border: 0.4rem solid green;
+  border-radius: 0.9rem;
+  padding: 1rem 2rem;
+  background-color: lightgreen;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Tilt Warp", cursive;
+}

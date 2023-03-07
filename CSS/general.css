@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Tilt Warp", cursive;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-image: url("https://img.freepik.com/free-photo/aesthetic-minimal-white-grid-pattern-wallpaper_53876-96916.jpg?w=1060&t=st=1678204889~exp=1678205489~hmac=5b8d7f7025ad90d6db67d69f0ccd6af6b0d8ec660a188a4f93bc180860f14bb4");
+  height: 100vh;
+}
